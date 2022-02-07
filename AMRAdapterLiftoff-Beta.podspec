@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AMRAdapterLiftoff'
+  s.name             = 'AMRAdapterLiftoff-Beta'
   s.version          = '1.8.2.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.vendored_frameworks = 'AMRAdapterLiftoff/Libs/AMRAdapterLiftoff.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.6'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.6'
   s.dependency 'LiftoffAds', '1.8.2'
 end
