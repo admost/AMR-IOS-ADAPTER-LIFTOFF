@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterLiftoff'
-  s.version          = '1.9.0.0'
+  s.version          = '1.10.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   }
   s.vendored_frameworks = 'AMRAdapterLiftoff/Libs/AMRAdapterLiftoff.xcframework'
   s.dependency 'AMRSDK', '~> 1.5.7'
-  s.dependency 'LiftoffAds', '1.9.0'
+  s.dependency 'LiftoffAds', '1.10.0'
 end
