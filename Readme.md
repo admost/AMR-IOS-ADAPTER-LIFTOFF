@@ -1,1 +1,0 @@
-AMR-IOS-Adapter-LIFTOFF
