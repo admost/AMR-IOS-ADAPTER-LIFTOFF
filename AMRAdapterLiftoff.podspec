@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterLiftoff'
-  s.version          = '7.4.3.0'
+  s.version          = '7.4.3.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.vendored_frameworks = 'AMRAdapterLiftoff/Libs/AMRAdapterVungle.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.7'
+  s.dependency 'AMRSDK', '~> 1.5.55'
   s.dependency 'VungleAds', '7.4.3'
 end
