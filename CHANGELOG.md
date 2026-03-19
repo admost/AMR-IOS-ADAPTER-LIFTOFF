@@ -6,6 +6,11 @@ VungleSDK-iOS [changelog](https://github.com/Vungle/VungleAdsSDK-SwiftPackageMan
 ## [7.7.1] - 2026-03-19
 ### Updated
 - Offical release for VungleAds 7.7.1
+
+## [7.7.0] - 2026-03-19
+### Updated
+- Offical release for VungleAds 7.7.0
+- SPM support added.
 - SPM support added.
 
 ## [7.7.1.0] - 2026-03-02

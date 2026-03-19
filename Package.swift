@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.84"),
-        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", from: "7.7.1")
+        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", .exact("7.7.0"))
     ],
     targets: [
         .target(
@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterLiftoffLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/releases/download/7.7.1/AMRAdapterVungle.xcframework.zip",
-            checksum: "9576ee7e2603c8acef4ef96770de446c8300052a07780945926b5bc7e87494f6"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/releases/download/7.7.0/AMRAdapterVungle.xcframework.zip",
+            checksum: "9f510d7640a083a899a1ee08def1573223fc32b7f6543449821e2534600a2272"
         )
     ]
 )
