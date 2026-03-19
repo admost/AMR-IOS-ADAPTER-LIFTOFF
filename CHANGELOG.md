@@ -1,9 +1,14 @@
 # Changelog
 
 Changelog for AMRAdapterLiftoff. 
-VungleSDK-iOS [changelog](https://support.vungle.com/hc/en-us/articles/360002925791-Integrate-Vungle-SDK-for-iOS)
+VungleSDK-iOS [changelog](https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager/releases)
 
-## [7.7.1.0] - 2025-03-02
+## [7.7.1] - 2026-03-19
+### Updated
+- Offical release for VungleAds 7.7.1
+- SPM support added.
+
+## [7.7.1.0] - 2026-03-02
 ### Updated
 - Offical release for VungleAds 7.7.1.0
 

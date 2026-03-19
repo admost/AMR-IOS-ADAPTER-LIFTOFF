@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterLiftoff'
-  s.version          = '7.7.1.0'
+  s.version          = '7.7.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -16,15 +16,15 @@ Pod::Spec.new do |s|
  								}
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
     s.swift_versions = ['5']
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
+    "VALID_ARCHS": "arm64 x86_64",
+    'VALID_ARCHS[sdk=iphoneos*]' => 'arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.vendored_frameworks = 'AMRAdapterLiftoff/Libs/AMRAdapterVungle.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.55'
+  s.dependency 'AMRSDK', '~> 1.5.84'
   s.dependency 'VungleAds', '7.7.1'
 end
